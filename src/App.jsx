@@ -21,7 +21,7 @@ import Check from "./Comp/Check"
 
 
 
-import {BrowserRouter,Route,Routes } from 'react-router-dom'
+import {HashRouter,Route,Routes } from 'react-router-dom'
 
  
 
@@ -67,7 +67,7 @@ import {BrowserRouter,Route,Routes } from 'react-router-dom'
  
     return (
    <div className='bg-[white]'>
-    <BrowserRouter>
+    <HashRouter>
     <Navbar count={cartItem.length}/>
     
     
@@ -104,7 +104,7 @@ import {BrowserRouter,Route,Routes } from 'react-router-dom'
     
     
    
-    </BrowserRouter>
+    </HashRouter>
       
       
       
